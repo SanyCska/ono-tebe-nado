@@ -8,7 +8,6 @@
   min-height: 109px;
   flex-shrink: 0;
   padding: 92px 49px 92px 51px;
-  min-height: 109px;
   display: grid;
   list-style-type: circle;
   grid-template-columns: 1fr 1fr 1fr;
