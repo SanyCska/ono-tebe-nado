@@ -104,14 +104,11 @@
   display: block;
   text-align: center;
   margin-bottom: 5px;
-  align-self: center;
 }
 
 .aligned-text_right {
   display: block;
   text-align: right;
-  margin-right: 0;
-  padding-right: 0;
 }
 
 .letter-spacing-extended {
@@ -146,15 +143,13 @@
 .bet-button {
   position: relative;
   background: transparent;
-  /* display: inline; */
   color: #fff;
   font-weight: 400;
   font-size: 22px;
-  border-color: #fff;
+  border-color: currentColor;
   width: 257px;
   height: 52px;
   flex-shrink: 0;
-  /* padding: 12px 32px; */
   align-items: end;
   font-family: Raleway, sans-serif;
   text-transform: uppercase;
@@ -307,8 +302,11 @@
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 310px;
   padding: 0 50px 90px 50px;
+}
+
+.footer .address{
+  justify-self: start;
 }
 
 .footer__links-list {
@@ -338,6 +336,8 @@
   display: flex;
   justify-content: space-between;
   list-style-type: none;
+  gap: 46px;
+  justify-self: end;
 }
 
 .footer__social-icon {
