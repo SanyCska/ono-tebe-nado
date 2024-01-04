@@ -98,17 +98,20 @@
 .aligned-text {
   display: block;
   margin-bottom: 14px;
+  line-height: 115%; /* 115px */
 }
 
 .aligned-text_center {
   display: block;
   text-align: center;
   margin-bottom: 5px;
+  line-height: 100%; /* 100px */
 }
 
 .aligned-text_right {
   display: block;
   text-align: right;
+  line-height: 100%; /* 100px */
 }
 
 .letter-spacing-extended {
@@ -184,6 +187,7 @@
 
 .lots__card-list-item {
   flex-grow: 1;
+  flex-wrap: wrap;
 }
 
 .card {
